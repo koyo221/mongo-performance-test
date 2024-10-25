@@ -1,4 +1,5 @@
 mongodb + nodejsでパフォーマンスのテストをする
+このリポジトリはcopilot workspaceを使って実装されています。
 
 ## Dockerを使用した実行環境のセットアップ
 
