@@ -40,3 +40,23 @@ MongoDBは、`mongodb://localhost:27017`でアクセスできます。
 - Dockerイメージのビルド: `docker-compose build`
 - Dockerコンテナの起動: `docker-compose up`
 - Dockerコンテナの停止: `docker-compose down`
+
+## `app.js`の実行方法
+
+このプロジェクトには、MongoDBに接続してランダムなドキュメントを挿入する`app.js`ファイルが含まれています。
+
+### 手順
+
+1. 必要な依存関係をインストールします。
+
+```sh
+npm install
+```
+
+2. `app.js`を実行します。
+
+```sh
+node app.js
+```
+
+`app.js`は、MongoDBに接続し、ランダムなドキュメントを`testdb`データベースの`testcollection`コレクションに挿入します。挿入されたドキュメントの`_id`がコンソールに表示されます。
